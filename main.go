@@ -66,7 +66,7 @@ func ClaimThread(Vanity string) {
 					if Config.Main.SocketUsage == true {
 						ClaimUsingSocket(Vanity, Config.Main.GuildID)
 					} else {
-						FastHttpTest(Vanity, Config.Main.GuildID)
+						FastHttpClaim(Vanity, Config.Main.GuildID)
 					}
 				case 200:
 					// Continue checking
