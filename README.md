@@ -3,6 +3,8 @@
 
 **discord-vanity-reclaim** is a high-performance tool for reclaiming Discord vanity URLs during server transfers. 
 
+**NOTE: It is recommended to first test on a free/claimable vanity before attempting to transfer a high-tier vanity.**
+
 ## **Features** :
 - Automatically send notifications to webhook
 - Supports sniping a lot of vanities simultaneously
