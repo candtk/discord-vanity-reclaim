@@ -14,6 +14,7 @@
 
 ## Basic Usage
 1) Building the program by source
+2) Open the input folder
 2) Configure your "config.yml" file ( webhook, guildid, amplify and token)
 3) Add your proxies to the "proxies.txt" file
 4) Add your vanity list to the "vanities.txt" file
