@@ -1,12 +1,12 @@
-# Discord Vanity Reclaim
+# Discord Vanity Claimer
 
-A high-performance Go tool built to help Discord server owners reclaim their own vanity URLs during server transfers — before malicious snipers can register them in the brief window the URL goes unclaimed.
+A high-performance Go tool built to help Discord server owners claim their own rare vanity URLs
 
 ---
 
 ## The Problem
 
-When transferring a Discord vanity URL between servers, there is an unavoidable window where the URL is released and unclaimed. In that gap — often under a second — automated snipers run by bad actors can steal the vanity permanently. This tool was built to solve that: by being faster than any sniper, the owner can reclaim their own URL the moment it becomes available.
+Discord vanity URLs — custom invite links like discord.gg/yourserver — are rare and highly sought after. When a server owner attempts to claim a vanity URL the moment it becomes available, they are competing against automated tools run by third parties looking to acquire the same URL. This tool was built to win that race: by eliminating every layer of HTTP overhead, it maximises the chance of successfully claiming a desired vanity URL before any competing tool can.
 
 ---
 
